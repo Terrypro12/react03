@@ -1,13 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+//import logo from './logo.svg';
+//import './App.css';
+
+import AppForm from './components/AppForm';
 import C01componente from './components/C01componente';
-import C04variable from './components/C04variable';
+
 
 function App() {
   return (
-    <div>
-     <C01componente/>
-     <C04variable xVariable="Lectura a varibles" />
+    <div style={{background:"yellow",
+    width:"350px",
+    padding:"10px"}}>
+      <AppForm/>
+      <i class="large material-icons">account_box</i>
+
     </div>
   );
 }
