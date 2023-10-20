@@ -2,8 +2,7 @@
 //import './App.css';
 
 import AppForm from './components/AppForm';
-import C01componente from './components/C01componente';
-import MatrizOperaciones from './components/P7matrizOperaciones';
+
 
 
 function App() {
@@ -13,7 +12,9 @@ function App() {
     padding:"10px"}}>
       <AppForm/>
       <i class="large material-icons">account_box</i>
-      <MatrizOperaciones/>
+      <p>1. Juan Manuel 23 Masculino ---- x A</p>
+      <p>2. Rosa Maria 25 Femenino   ---- x A</p>
+      <p>1. Luis Miguel 40 Masculino ---- x A</p>
     </div>
   );
 }
